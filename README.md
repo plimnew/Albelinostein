@@ -1,3 +1,5 @@
+[Português](README.md) · [English](README.en.md)
+
 # Albelinostein
 
 Assistente de IA que corre no seu computador e regista, de forma assinada e verificável, tudo o que faz.
@@ -8,10 +10,10 @@ Este repositório publica as versões compiladas e a forma de as verificar. Site
 | Sistema | Estado |
 |---|---|
 | Linux (deb, rpm, AppImage, linha de comandos) | Validado; publicação em preparação |
-| macOS | Em validação |
-| Windows | Em validação |
-| Android | Em validação |
-| iOS | Em validação |
+| macOS | Por validar |
+| Windows | Por validar |
+| Android | Por validar |
+| iOS | Por validar |
 
 Ainda não há nenhuma versão publicada. Quando houver, aparece em Releases, com
 SHA256SUMS e uma assinatura (.asc) por ficheiro.
@@ -19,7 +21,16 @@ SHA256SUMS e uma assinatura (.asc) por ficheiro.
 ## Verificar um ficheiro descarregado
 
 Cada versão trará a soma SHA-256 e a assinatura GPG de cada ficheiro, e a chave
-pública ficará neste repositório. As instruções completas acompanham a primeira versão.
+pública ficará neste repositório. Passo a passo: [docs/verificar.pt.md](docs/verificar.pt.md).
+
+## Documentação
+
+- [Guia de utilização](docs/guia.pt.md) ([English](docs/guide.en.md))
+- [Documento técnico](docs/whitepaper.pt.md) ([English](docs/whitepaper.en.md))
+- [Perguntas frequentes](docs/faq.pt.md)
+- [Como verificar um download](docs/verificar.pt.md)
+- [Segurança](SECURITY.md)
+- [Registo de alterações](CHANGELOG.md)
 
 ## Suporte
 
