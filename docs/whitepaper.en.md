@@ -322,5 +322,6 @@ signed, and the signing keys have not been generated.
   notifications on phones, scanning the pairing code with a phone camera, and
   the optional account service.
 
-Support is available through the form at <https://albelino.plimswitzzer.com/suporte/> and in the
-Discord community, <https://discord.gg/AyZHZPtkHk>.
+Support happens in the Discord community, <https://discord.gg/AyZHZPtkHk>. Security
+vulnerabilities are reported privately on GitHub (see
+[SECURITY.md](../SECURITY.md)).

@@ -339,5 +339,6 @@ ficheiro está assinado e as chaves de assinatura ainda não foram geradas.
   notificações em segundo plano nos telemóveis, leitura do código de
   emparelhamento com a câmara e o serviço de conta opcional.
 
-O suporte faz-se pelo formulário em <https://albelino.plimswitzzer.com/suporte/> e na
-comunidade do Discord, <https://discord.gg/AyZHZPtkHk>.
+O suporte faz-se na comunidade do Discord, <https://discord.gg/AyZHZPtkHk>.
+Vulnerabilidades de segurança comunicam-se em privado no GitHub (ver
+[SECURITY.md](../SECURITY.md)).

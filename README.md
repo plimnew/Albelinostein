@@ -87,10 +87,11 @@ Passo a passo: [docs/verificar.pt.md](docs/verificar.pt.md).
 
 ## Suporte
 
-- **Comunidade no Discord**, para perguntas, erros e ideias: <https://discord.gg/AyZHZPtkHk>
-- **Formulário**, para falar diretamente com a pLimLab: <https://albelino.plimswitzzer.com/suporte/>
+Na comunidade do Discord, onde a equipa responde: <https://discord.gg/AyZHZPtkHk>. Dúvidas em #help,
+erros em #bug-reports, ideias em #ideas.
 
-Vulnerabilidades de segurança só pelo formulário, nunca no Discord: ver [SECURITY.md](SECURITY.md).
+Vulnerabilidades de segurança nunca no Discord: comunique-as em privado no
+GitHub, em «Report a vulnerability» (<https://github.com/plimnew/Albelinostein/security/advisories/new>). Ver [SECURITY.md](SECURITY.md).
 
 ## Licença
 

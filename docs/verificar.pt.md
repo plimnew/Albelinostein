@@ -129,5 +129,6 @@ Um ficheiro com `debug` ou `unsigned` no nome não é uma versão publicada.
 
 ## Se algo não bater
 
-Não instale. Apague o ficheiro e peça ajuda pelo
-[formulário de suporte](https://albelino.plimswitzzer.com/suporte/).
+Não instale. Apague o ficheiro e comunique-o em privado no GitHub, em
+[«Report a vulnerability»](https://github.com/plimnew/Albelinostein/security/advisories/new): um download que não bate certo pode ter
+sido adulterado.

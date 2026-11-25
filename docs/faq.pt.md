@@ -101,7 +101,7 @@ nada publicado para verificar.
 
 ## Onde obtenho suporte?
 
-Na comunidade do Discord, <https://discord.gg/AyZHZPtkHk>: perguntas em #help e erros em
-#bug-reports. Para falar diretamente com a pLimLab, pelo formulário em
-<https://albelino.plimswitzzer.com/suporte/>. Vulnerabilidades de segurança só pelo formulário,
-nunca no Discord: ver [SECURITY.md](../SECURITY.md).
+Na comunidade do Discord, <https://discord.gg/AyZHZPtkHk>, onde a equipa responde: perguntas
+em #help e erros em #bug-reports. Vulnerabilidades de segurança nunca no
+Discord: comunique-as em privado no GitHub, em «Report a vulnerability»;
+ver [SECURITY.md](../SECURITY.md).
