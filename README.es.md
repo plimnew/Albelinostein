@@ -86,7 +86,10 @@ Paso a paso: [docs/verificar.pt.md](docs/verificar.pt.md) (en portugués).
 
 ## Soporte
 
-Solo a través del formulario: <https://albelino.plimswitzzer.com/suporte/>
+- **Comunidad en Discord**, para preguntas, errores e ideas: <https://discord.gg/AyZHZPtkHk>
+- **Formulario**, para hablar directamente con pLimLab: <https://albelino.plimswitzzer.com/es/soporte/>
+
+Las vulnerabilidades de seguridad, solo por el formulario y nunca en Discord: ver [SECURITY.md](SECURITY.md).
 
 ## Licencia
 
