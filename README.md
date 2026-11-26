@@ -88,10 +88,10 @@ Passo a passo: [docs/verificar.pt.md](docs/verificar.pt.md).
 
 ## Documentação
 
-- [Guia de utilização](docs/guia.pt.md) ([English](docs/guide.en.md))
-- [Documento técnico](docs/whitepaper.pt.md) ([English](docs/whitepaper.en.md))
-- [Perguntas frequentes](docs/faq.pt.md)
-- [Como verificar um download](docs/verificar.pt.md)
+- [Guia de utilização](docs/guia.pt.md) ([English](docs/guide.en.md), [Español](docs/guia.es.md))
+- [Documento técnico](docs/whitepaper.pt.md) ([English](docs/whitepaper.en.md), [Español](docs/whitepaper.es.md))
+- [Perguntas frequentes](docs/faq.pt.md) ([English](docs/faq.en.md), [Español](docs/faq.es.md))
+- [Como verificar um download](docs/verificar.pt.md) ([English](docs/verify.en.md), [Español](docs/verificar.es.md))
 - [Segurança](SECURITY.md)
 - [Registo de alterações](CHANGELOG.md)
 

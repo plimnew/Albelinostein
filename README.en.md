@@ -83,14 +83,14 @@ version listed here, it does not exist.
 3. You check the signature of the list (`gpg --verify`), then the sum of
    the file (`sha256sum --check`).
 
-Step by step: [docs/verificar.pt.md](docs/verificar.pt.md) (in Portuguese).
+Step by step: [docs/verify.en.md](docs/verify.en.md).
 
 ## Documentation
 
-- [User guide](docs/guide.en.md) ([Português](docs/guia.pt.md))
-- [Whitepaper](docs/whitepaper.en.md) ([Português](docs/whitepaper.pt.md))
-- [FAQ](docs/faq.pt.md) (in Portuguese)
-- [How to verify a download](docs/verificar.pt.md) (in Portuguese)
+- [User guide](docs/guide.en.md) ([Português](docs/guia.pt.md), [Español](docs/guia.es.md))
+- [Whitepaper](docs/whitepaper.en.md) ([Português](docs/whitepaper.pt.md), [Español](docs/whitepaper.es.md))
+- [FAQ](docs/faq.en.md) ([Português](docs/faq.pt.md), [Español](docs/faq.es.md))
+- [How to verify a download](docs/verify.en.md) ([Português](docs/verificar.pt.md), [Español](docs/verificar.es.md))
 - [Security](SECURITY.md)
 - [Changelog](CHANGELOG.md)
 

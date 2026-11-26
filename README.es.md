@@ -40,7 +40,7 @@ Sitio web: <https://albelino.plimswitzzer.com>
 
 También tiene memoria entre sesiones, un mapa de la carpeta de trabajo y
 *skills* creadas a partir de libros y documentos que aporta la persona. Consulte
-el [whitepaper](docs/whitepaper.en.md) (en inglés).
+el [whitepaper](docs/whitepaper.es.md).
 
 ## Estado de las versiones
 
@@ -83,14 +83,14 @@ no aparece aquí, no existe.
 3. Se comprueba la firma de la lista (`gpg --verify`) y después la suma del
    archivo (`sha256sum --check`).
 
-Paso a paso: [docs/verificar.pt.md](docs/verificar.pt.md) (en portugués).
+Paso a paso: [docs/verificar.es.md](docs/verificar.es.md).
 
 ## Documentación
 
-- [Guía de uso](docs/guide.en.md) (en inglés; [Português](docs/guia.pt.md))
-- [Whitepaper](docs/whitepaper.en.md) (en inglés; [Português](docs/whitepaper.pt.md))
-- [Preguntas frecuentes](docs/faq.pt.md) (en portugués)
-- [Cómo verificar una descarga](docs/verificar.pt.md) (en portugués)
+- [Guía de uso](docs/guia.es.md) ([Português](docs/guia.pt.md), [English](docs/guide.en.md))
+- [Whitepaper](docs/whitepaper.es.md) ([Português](docs/whitepaper.pt.md), [English](docs/whitepaper.en.md))
+- [Preguntas frecuentes](docs/faq.es.md) ([Português](docs/faq.pt.md), [English](docs/faq.en.md))
+- [Cómo verificar una descarga](docs/verificar.es.md) ([Português](docs/verificar.pt.md), [English](docs/verify.en.md))
 - [Seguridad](SECURITY.md)
 - [Registro de cambios](CHANGELOG.md)
 
