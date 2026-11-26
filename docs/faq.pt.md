@@ -90,11 +90,13 @@ construída.
 
 ## O código é aberto?
 
-Não. O código-fonte não é público hoje. Este repositório existe para
-publicar o estado das versões, o guia, o documento técnico e as chaves para
-verificar os downloads, que estão na página de downloads do site
+A licença é a Apache-2.0: o Albelinostein pode ser usado gratuitamente para
+qualquer fim, incluindo comercial. O código-fonte ainda não está publicado.
+Este repositório existe para publicar o estado das versões, o guia, o
+documento técnico e as chaves para verificar os downloads, que estão na
+página de downloads do site
 (<https://albelino.plimswitzzer.com/downloads/>). Os binários são
-distribuídos pela pLim, com todos os direitos reservados.
+distribuídos pela pLim.
 
 ## Como verifico um download?
 

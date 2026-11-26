@@ -4,7 +4,7 @@
 
 Version 0.1.0 was published on 26 November 2026. This document
 describes the design of the engine (`adelino`) and the app (Albelinostein), and it
-says where something is planned and not built. The source code is not public.
+says where something is planned and not built. The source code is not published yet; the licence is Apache-2.0.
 
 ## 1. The problem
 

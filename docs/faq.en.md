@@ -90,11 +90,13 @@ camera is not yet built.
 
 ## Is the code open source?
 
-No. The source code is not public today. This repository exists to publish
-the state of each version, the guide, the technical document and the keys
-for verifying downloads, which are on the downloads page of the site
+The licence is Apache-2.0: Albelinostein can be used free of charge for any
+purpose, including commercial use. The source code is not published yet.
+This repository exists to publish the state of each version, the
+guide, the technical document and the keys for verifying downloads, which
+are on the downloads page of the site
 (<https://albelino.plimswitzzer.com/en/downloads/>). The binaries are
-distributed by pLim, with all rights reserved.
+distributed by pLim.
 
 ## How do I verify a download?
 

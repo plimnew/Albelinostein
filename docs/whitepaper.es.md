@@ -4,8 +4,8 @@
 
 La versión 0.1.0 se publicó el 26 de noviembre de 2026. Este documento
 describe el diseño del motor (`adelino`) y de la aplicación (Albelinostein) e
-indica dónde algo está planificado y no construido. El código fuente no es
-público.
+indica dónde algo está planificado y no construido. El código fuente aún no
+está publicado; la licencia es Apache-2.0.
 
 ## 1. El problema
 

@@ -90,11 +90,13 @@ lectura del código QR con la cámara aún no está construida.
 
 ## ¿El código es abierto?
 
-No. El código fuente no es público hoy. Este repositorio existe para publicar
-el estado de las versiones, la guía, el documento técnico y las claves para
-verificar las descargas, que están en la página de descargas del sitio
+La licencia es Apache-2.0: Albelinostein se puede usar gratis para cualquier
+fin, incluido el comercial. El código fuente aún no está publicado. Este
+repositorio existe para publicar el estado de las versiones, la
+guía, el documento técnico y las claves para verificar las descargas, que
+están en la página de descargas del sitio
 (<https://albelino.plimswitzzer.com/es/downloads/>). Los binarios los
-distribuye pLim, con todos los derechos reservados.
+distribuye pLim.
 
 ## ¿Cómo verifico una descarga?
 

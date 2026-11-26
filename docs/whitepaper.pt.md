@@ -4,7 +4,7 @@
 
 A versão 0.1.0 foi publicada a 26 de novembro de 2026. Este documento
 descreve o desenho do motor (`adelino`) e da aplicação (Albelinostein) e diz onde
-algo está planeado e não construído. O código-fonte não é público.
+algo está planeado e não construído. O código-fonte ainda não está publicado; a licença é a Apache-2.0.
 
 ## 1. O problema
 

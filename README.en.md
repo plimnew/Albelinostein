@@ -22,7 +22,7 @@ what happened and who allowed it.
 
 This repository is public so that people can find the product: what it is,
 the state of each compiled version, how to verify a download, the user guide
-and the whitepaper. The source code is not public.
+and the whitepaper. The source code is not published yet.
 
 Site: <https://albelino.plimswitzzer.com>
 
@@ -104,4 +104,6 @@ under “Report a vulnerability” (<https://github.com/plimnew/Albelinostein/se
 
 ## Licence
 
-Binaries distributed by pLim. All rights reserved.
+The licence is Apache-2.0: Albelinostein can be used free of charge for any
+purpose, including commercial use. The source code is not published yet.
+The binaries are distributed by pLim.
