@@ -44,32 +44,42 @@ It also has memory between sessions, a map of the working folder, and
 
 ## State of the versions
 
-Version 0.1.0 is in preparation. **No version has been published.**
+Version 0.1.0 was published on 26 November 2026, **only on the downloads page
+of the site**.
 
 | System | State |
 |---|---|
-| Linux: `.deb`, `.rpm`, AppImage and command-line program | Validated by the acceptance suite; not yet published |
-| macOS | Not yet validated |
-| Windows | Not yet validated |
-| Android | Not yet validated |
-| iOS | Not yet validated |
+| Linux: `.deb`, `.rpm`, AppImage and command-line program | Validated by the acceptance suite; published |
+| macOS | Not published: there is no Apple developer account yet (Developer ID and notarization) |
+| Windows | Not published: there is no Windows code-signing certificate yet |
+| Android | Published: APK (arm64) |
+| iOS | Not published: there is no signed build recipe yet |
 
-No file is signed yet and the signing keys have not been generated.
-Nothing can be downloaded from this repository today.
+Every published file has its own signature file (`.asc`). The checksum list
+and its signature are at <https://albelino.plimswitzzer.com/downloads/releases/0.1.0/SHA256SUMS>
+and <https://albelino.plimswitzzer.com/downloads/releases/0.1.0/SHA256SUMS.asc>.
 
-## Where downloads will appear
+## Where the downloads are
 
-- In the **Releases** of this repository (GitHub), once a version is published.
-- On the downloads page of the site: <https://albelino.plimswitzzer.com>
+- On the downloads page of the site: <https://albelino.plimswitzzer.com/en/downloads/>
+- The **Releases** of this repository (GitHub) contain no release: the list
+  is empty.
 
-This table and the Releases list are the source of truth: if there is no
+Published files. Linux (x86_64): `Albelino_0.1.0_x86_64.AppImage`,
+`albelino_0.1.0_amd64.deb`, `albelino-0.1.0-1.x86_64.rpm` and the
+command-line program `adelino-cli-0.1.0-x86_64-unknown-linux-gnu.tar.gz`.
+Android (arm64): `Albelino_0.1.0_arm64-v8a.apk`.
+
+This table and the downloads page are the source of truth: if there is no
 version listed here, it does not exist.
 
 ## How a download is verified
 
 1. Each version ships a `SHA256SUMS` file with the SHA-256 sum of every file.
 2. `SHA256SUMS` is signed with the GPG key "Albelino Releases"; its public
-   half will be published in `docs/keys/` with the first release.
+   half is published in `docs/keys/albelino-releases.asc` (fingerprint in
+   `docs/keys/albelino-releases.fingerprint`) and at
+   <https://albelino.plimswitzzer.com/downloads/releases/public-key.asc>.
 3. You check the signature of the list (`gpg --verify`), then the sum of
    the file (`sha256sum --check`).
 

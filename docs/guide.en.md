@@ -7,7 +7,8 @@ can check at any time.
 This guide is organised by what you want to do. A reference of every
 command is at the end. Portuguese: [guia.pt.md](guia.pt.md).
 
-> Adelino 0.1.0 is in preparation and has not been published. This guide
+> Adelino 0.1.0 was published on 26 November 2026, on the downloads page of
+> the site (<https://albelino.plimswitzzer.com/en/downloads/>). This guide
 > describes the program as it will behave; installation instructions will be
 > added here with the first release. See the [state of each version](../README.en.md#state-of-the-versions).
 

@@ -2,7 +2,7 @@
 
 [Português](whitepaper.pt.md) · [English](whitepaper.en.md)
 
-A versão 0.1.0 está em preparação e não foi publicada. Este documento
+A versão 0.1.0 foi publicada a 26 de novembro de 2026. Este documento
 descreve o desenho do motor (`adelino`) e da aplicação (Albelinostein) e diz onde
 algo está planeado e não construído. O código-fonte não é público.
 
@@ -316,8 +316,10 @@ O que isto **não** faz:
 
 ## 10. Estado atual e limites
 
-A versão 0.1.0 está em preparação. Não foi publicada nenhuma versão, nenhum
-ficheiro está assinado e as chaves de assinatura ainda não foram geradas.
+A versão 0.1.0 foi publicada a 26 de novembro de 2026, só na página de
+downloads do site. Cada ficheiro publicado tem o seu ficheiro de assinatura
+(`.asc`) e a chave pública «Albelino Releases» está publicada. macOS, Windows
+e iOS não estão publicados.
 
 - O **Linux** (`.deb`, `.rpm`, AppImage e programa de linha de comandos) está
   validado por um guião de aceitação que testa os ficheiros que uma pessoa

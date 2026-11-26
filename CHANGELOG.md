@@ -1,8 +1,8 @@
 # Registo de alterações / Changelog
 
-## Por publicar / Unreleased
+## 0.1.0 — 2026-11-26
 
-**Versão 0.1.0, em preparação. Ainda não foi publicada. / Version 0.1.0, in preparation. Not yet published.**
+**Versão 0.1.0, publicada a 26 de novembro de 2026. / Version 0.1.0, published on 26 November 2026.**
 
 O que inclui, ao nível dos títulos / What it contains, at headline level:
 
@@ -17,4 +17,6 @@ O que inclui, ao nível dos títulos / What it contains, at headline level:
 - Limites de gasto e tarefas agendadas / Spending limits and scheduled requests
 
 Estado: Linux validado pelo guião de aceitação; macOS, Windows, Android e iOS por validar.
+Publicado, só na página de downloads do site: Linux (x86_64) e Android (arm64). Não publicados: macOS, Windows e iOS.
 State: Linux validated by the acceptance suite; macOS, Windows, Android and iOS not yet validated.
+Published, only on the downloads page of the site: Linux (x86_64) and Android (arm64). Not published: macOS, Windows and iOS.

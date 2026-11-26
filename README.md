@@ -45,32 +45,42 @@ criadas a partir de livros e documentos que a pessoa fornece. Ver o
 
 ## Estado das versões
 
-A versão 0.1.0 está em preparação. **Não foi publicada nenhuma versão.**
+A versão 0.1.0 foi publicada a 26 de novembro de 2026, **apenas na página de
+downloads do site**.
 
 | Sistema | Estado |
 |---|---|
-| Linux: `.deb`, `.rpm`, AppImage e programa de linha de comandos | Validado pelo guião de aceitação; ainda não publicado |
-| macOS | Por validar |
-| Windows | Por validar |
-| Android | Por validar |
-| iOS | Por validar |
+| Linux: `.deb`, `.rpm`, AppImage e programa de linha de comandos | Validado pelo guião de aceitação; publicado |
+| macOS | Não publicado: ainda não há conta de programador da Apple (Developer ID e notarização) |
+| Windows | Não publicado: ainda não há certificado de assinatura de código para Windows |
+| Android | Publicado: APK (arm64) |
+| iOS | Não publicado: ainda não há receita de compilação assinada |
 
-Nenhum ficheiro está assinado e as chaves de assinatura ainda não foram
-geradas. Nada pode ser descarregado a partir deste repositório hoje.
+Cada ficheiro publicado tem o seu ficheiro de assinatura (`.asc`). A lista de
+somas e a sua assinatura estão em <https://albelino.plimswitzzer.com/downloads/releases/0.1.0/SHA256SUMS>
+e <https://albelino.plimswitzzer.com/downloads/releases/0.1.0/SHA256SUMS.asc>.
 
-## Onde vão aparecer os downloads
+## Onde estão os downloads
 
-- Nas **Releases** deste repositório (GitHub), quando existir uma versão publicada.
-- Na página de downloads do site: <https://albelino.plimswitzzer.com>
+- Na página de downloads do site: <https://albelino.plimswitzzer.com/downloads/>
+- As **Releases** deste repositório (GitHub) não têm nenhuma versão: a lista
+  está vazia.
 
-Esta tabela e a lista de Releases são a fonte de verdade: se aqui não há
+Ficheiros publicados. Linux (x86_64): `Albelino_0.1.0_x86_64.AppImage`,
+`albelino_0.1.0_amd64.deb`, `albelino-0.1.0-1.x86_64.rpm` e o programa de
+linha de comandos `adelino-cli-0.1.0-x86_64-unknown-linux-gnu.tar.gz`.
+Android (arm64): `Albelino_0.1.0_arm64-v8a.apk`.
+
+Esta tabela e a página de downloads são a fonte de verdade: se aqui não há
 uma versão, ela não existe.
 
 ## Como se verifica um download
 
 1. Cada versão traz um `SHA256SUMS` com a soma SHA-256 de cada ficheiro.
 2. O `SHA256SUMS` é assinado com a chave GPG «Albelino Releases», cuja parte
-   pública será publicada em `docs/keys/` com a primeira versão.
+   pública está publicada em `docs/keys/albelino-releases.asc` (impressão
+   digital em `docs/keys/albelino-releases.fingerprint`) e em
+   <https://albelino.plimswitzzer.com/downloads/releases/public-key.asc>.
 3. Confirma-se a assinatura da lista (`gpg --verify`) e depois a soma do
    ficheiro (`sha256sum --check`).
 

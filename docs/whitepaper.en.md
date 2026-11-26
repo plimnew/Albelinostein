@@ -2,7 +2,7 @@
 
 [Português](whitepaper.pt.md) · [English](whitepaper.en.md)
 
-Version 0.1.0 is in preparation and has not been published. This document
+Version 0.1.0 was published on 26 November 2026. This document
 describes the design of the engine (`adelino`) and the app (Albelinostein), and it
 says where something is planned and not built. The source code is not public.
 
@@ -300,8 +300,10 @@ What this does **not** do:
 
 ## 10. Current state and limits
 
-Version 0.1.0 is in preparation. No version has been published, no file is
-signed, and the signing keys have not been generated.
+Version 0.1.0 was published on 26 November 2026, only on the downloads page of
+the site. Every published file has its own signature file (`.asc`) and the
+public key "Albelino Releases" is published. macOS, Windows and iOS are not
+published.
 
 - **Linux** (`.deb`, `.rpm`, AppImage and the command-line program) is
   validated by an acceptance suite that tests the files a person would

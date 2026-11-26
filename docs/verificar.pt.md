@@ -3,10 +3,11 @@
 Serve para confirmar que o ficheiro que descarregou é o original, publicado
 pelo Albelinostein, e que ninguém o alterou pelo caminho.
 
-> **Estado atual.** Ainda não foi publicada nenhuma versão e nenhum ficheiro
-> está assinado. As chaves de assinatura ainda não foram geradas. Este
-> documento descreve como a verificação vai funcionar quando a versão 0.1.0
-> for publicada. Ver o [estado das versões](../README.md#estado-das-versões).
+> **Estado atual.** A versão 0.1.0 foi publicada a 26 de novembro de 2026,
+> só na página de downloads do site
+> (<https://albelino.plimswitzzer.com/downloads/>). Cada ficheiro publicado
+> tem o seu ficheiro de assinatura (`.asc`) e a chave pública está
+> publicada. Ver o [estado das versões](../README.md#estado-das-versões).
 
 ## O que prova o quê
 
@@ -21,9 +22,10 @@ alterar também a lista. É a assinatura que fecha o círculo.
 
 ## Onde ficam a chave e os ficheiros
 
-A chave pública será publicada neste repositório, em `docs/keys/`, com a
-primeira versão. Até lá a pasta não existe e nenhum download pode ser
-verificado. Quando existir, conterá:
+A chave pública está publicada neste repositório, em `docs/keys/`, e no site,
+em <https://albelino.plimswitzzer.com/downloads/releases/public-key.asc>.
+A impressão digital é 44E5 30D3 FCDF B80C 9EAB F680 5EB9 C85F 1DA4 BC91. A
+pasta contém:
 
 | Ficheiro | O que é |
 |---|---|
@@ -31,16 +33,18 @@ verificado. Quando existir, conterá:
 | `albelino-releases.fingerprint` | A sua impressão digital, para comparar depois de importar |
 | `android-cert-sha256.txt` | A soma SHA-256 do certificado que assina o APK do Android |
 
-Cada versão publicada terá o seu `SHA256SUMS` e o `SHA256SUMS.asc` junto
-dos ficheiros, nas Releases deste repositório e na página de downloads do
-site.
+A versão 0.1.0 tem o seu `SHA256SUMS` e o `SHA256SUMS.asc` na página de
+downloads do site
+(<https://albelino.plimswitzzer.com/downloads/releases/0.1.0/SHA256SUMS> e
+<https://albelino.plimswitzzer.com/downloads/releases/0.1.0/SHA256SUMS.asc>).
+As Releases deste repositório não têm nenhuma versão.
 
 ## Três passos
 
 Precisa do `gpg` (Linux: já vem; macOS: `brew install gnupg`; Windows: Gpg4win).
 Descarregue para a mesma pasta o ficheiro que quer, o `SHA256SUMS` e o `SHA256SUMS.asc`.
 
-**1. Obter a chave pública, uma vez.** Quando existir, estará em
+**1. Obter a chave pública, uma vez.** Está em
 `docs/keys/albelino-releases.asc`, neste repositório.
 
 ```bash

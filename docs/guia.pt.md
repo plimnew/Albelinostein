@@ -7,7 +7,8 @@ registo assinado que pode verificar a qualquer momento.
 Este guia está organizado pelo que quer fazer. No fim há a referência de
 todos os comandos. Em inglês: [guide.en.md](guide.en.md).
 
-> O Adelino 0.1.0 está em preparação e ainda não foi publicado. Este guia
+> O Adelino 0.1.0 foi publicado a 26 de novembro de 2026, na página de
+> downloads do site (<https://albelino.plimswitzzer.com/downloads/>). Este guia
 > descreve o programa tal como se vai comportar; as instruções de instalação
 > serão acrescentadas com a primeira versão. Veja o
 > [estado de cada versão](../README.md#estado-das-versões).

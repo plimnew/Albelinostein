@@ -14,7 +14,7 @@ repositório: <https://github.com/plimnew/Albelinostein/security/advisories/new>
   vulnerabilidades no Discord. A equipa nunca pede chaves, palavras-passe
   nem pagamentos por mensagem privada, e não usa email para suporte.
 
-Ainda não foi publicada nenhuma versão. Os limites das proteções (o que o
+A versão 0.1.0 foi publicada a 26 de novembro de 2026. Os limites das proteções (o que o
 Adelino não protege) estão descritos no
 [documento técnico](docs/whitepaper.pt.md#9-fronteiras-de-confiança-e-o-que-o-adelino-não-protege).
 
@@ -32,6 +32,6 @@ on GitHub, under “Report a vulnerability” in this repository's Security tab:
   vulnerabilities on Discord. The team never asks for keys, passwords or
   payments in private messages, and does not use email for support.
 
-No version has been published yet. The limits of the protections (what
+Version 0.1.0 was published on 26 November 2026. The limits of the protections (what
 Adelino does not protect against) are described in the
 [whitepaper](docs/whitepaper.en.md#9-trust-boundaries-and-what-adelino-does-not-protect-against).

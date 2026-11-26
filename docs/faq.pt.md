@@ -1,6 +1,6 @@
 # Perguntas frequentes
 
-A versão 0.1.0 está em preparação e ainda não foi publicada. As respostas
+A versão 0.1.0 foi publicada a 26 de novembro de 2026. As respostas
 descrevem o programa tal como foi desenhado e testado; ver o
 [estado das versões](../README.md#estado-das-versões).
 
@@ -72,9 +72,12 @@ estar erradas. O Adelino nunca procura nem descarrega livros.
 
 ## Que sistemas são suportados?
 
-Hoje, nenhum está publicado. O Linux (`.deb`, `.rpm`, AppImage e programa de
-linha de comandos) está validado pelo guião de aceitação, mas ainda não
-publicado. macOS, Windows, Android e iOS estão por validar. No Windows e no
+Estão publicados o Linux (x86_64: `.deb`, `.rpm`, AppImage e programa de
+linha de comandos) e o Android (APK, arm64). O Linux está validado pelo guião
+de aceitação. macOS, Windows, Android e iOS estão por validar. O macOS (ainda
+sem conta de programador da Apple), o Windows (ainda sem certificado de
+assinatura de código) e o iOS (ainda sem receita de compilação assinada) não
+estão publicados. No Windows e no
 macOS ainda não há sandbox de comandos: cada comando pergunta.
 
 ## Posso aprovar ações a partir do telemóvel?
@@ -88,16 +91,19 @@ construída.
 ## O código é aberto?
 
 Não. O código-fonte não é público hoje. Este repositório existe para
-publicar o estado das versões, o guia, o documento técnico e, quando
-existirem, os downloads e as chaves para os verificar. Os binários são
+publicar o estado das versões, o guia, o documento técnico e as chaves para
+verificar os downloads, que estão na página de downloads do site
+(<https://albelino.plimswitzzer.com/downloads/>). Os binários são
 distribuídos pela pLim, com todos os direitos reservados.
 
 ## Como verifico um download?
 
-Cada versão terá uma lista de somas (`SHA256SUMS`) assinada com uma chave
-GPG, cuja parte pública será publicada em `docs/keys/` com a primeira
-versão. Passo a passo em [verificar.pt.md](verificar.pt.md). Ainda não há
-nada publicado para verificar.
+Cada versão tem uma lista de somas (`SHA256SUMS`) assinada com uma chave
+GPG, cuja parte pública está publicada em `docs/keys/albelino-releases.asc`
+e em <https://albelino.plimswitzzer.com/downloads/releases/public-key.asc>.
+Passo a passo em [verificar.pt.md](verificar.pt.md). As Releases deste
+repositório não têm nenhuma versão: os downloads estão só na página de
+downloads do site.
 
 ## Onde obtenho suporte?
 
