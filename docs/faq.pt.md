@@ -73,11 +73,12 @@ estar erradas. O Adelino nunca procura nem descarrega livros.
 ## Que sistemas são suportados?
 
 Estão publicados o Linux (x86_64: `.deb`, `.rpm`, AppImage e programa de
-linha de comandos) e o Android (APK, arm64). O Linux está validado pelo guião
-de aceitação. macOS, Windows, Android e iOS estão por validar. O macOS (ainda
-sem conta de programador da Apple), o Windows (ainda sem certificado de
-assinatura de código) e o iOS (ainda sem receita de compilação assinada) não
-estão publicados. No Windows e no
+linha de comandos), o macOS para Apple Silicon (`.dmg`, versão 0.1.1,
+assinado com Developer ID e notarizado pela Apple; não funciona em Macs com
+processador Intel) e o Android (APK, arm64). O Linux está validado pelo guião
+de aceitação. macOS, Windows, Android e iOS estão por validar. O Windows
+(ainda sem certificado de assinatura de código) e o iOS (ainda sem receita de
+compilação assinada) não estão publicados. No Windows e no
 macOS ainda não há sandbox de comandos: cada comando pergunta.
 
 ## Posso aprovar ações a partir do telemóvel?

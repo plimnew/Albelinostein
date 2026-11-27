@@ -111,9 +111,16 @@ not the download's signature and you do not need to do anything with them.)
 - **Windows** (`-setup.exe`): does **not** yet have an Authenticode
   signature. Windows will show an "unknown publisher" warning; this is
   expected. Verify with the three steps above.
-- **macOS** (`.dmg`): is **not** yet signed with Developer ID or notarised.
-  macOS will refuse to open it with a double click; this is expected.
-  Verify with the three steps above.
+- **macOS** (`.dmg`): version 0.1.0 has no `.dmg`. From 0.1.1 on, the `.dmg`
+  is only for Macs with **Apple Silicon** (M1 or later; it does not run on
+  Macs with an Intel processor). It is signed with the Developer ID of Apple
+  team `B4S6KAG56M` and notarised by Apple: it opens with a double click.
+  Besides the three steps above, on a Mac, in Terminal, in the download
+  folder, replacing FILE with the file's name: `xcrun stapler validate FILE`
+  must say `The validate action worked!`, and
+  `spctl -a -vv -t open --context context:primary-signature FILE` must answer
+  `accepted` and `source=Notarized Developer ID`, with `(B4S6KAG56M)` in the
+  `origin` line.
 
 Windows, macOS and Android are platforms not yet validated; see the
 [state of each version](../README.en.md).

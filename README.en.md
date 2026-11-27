@@ -44,13 +44,13 @@ It also has memory between sessions, a map of the working folder, and
 
 ## State of the versions
 
-Version 0.1.0 was published on 26 November 2026, **only on the downloads page
-of the site**.
+Version 0.1.0 was published on 26 November 2026, and 0.1.1 for macOS (Apple
+Silicon) on 27 November, **only on the downloads page of the site**.
 
 | System | State |
 |---|---|
 | Linux: `.deb`, `.rpm`, AppImage and command-line program | Validated by the acceptance suite; published |
-| macOS | Not published: there is no Apple developer account yet (Developer ID and notarization) |
+| macOS | Published since 0.1.1: `.dmg` for Apple Silicon, signed with Developer ID and notarised by Apple; it does not run on Macs with an Intel processor |
 | Windows | Not published: there is no Windows code-signing certificate yet |
 | Android | Published: APK (arm64) |
 | iOS | Not published: there is no signed build recipe yet |

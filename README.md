@@ -45,13 +45,13 @@ criadas a partir de livros e documentos que a pessoa fornece. Ver o
 
 ## Estado das versões
 
-A versão 0.1.0 foi publicada a 26 de novembro de 2026, **apenas na página de
-downloads do site**.
+A versão 0.1.0 foi publicada a 26 de novembro de 2026 e a 0.1.1 para macOS
+(Apple Silicon) a 27 de novembro, **apenas na página de downloads do site**.
 
 | Sistema | Estado |
 |---|---|
 | Linux: `.deb`, `.rpm`, AppImage e programa de linha de comandos | Validado pelo guião de aceitação; publicado |
-| macOS | Não publicado: ainda não há conta de programador da Apple (Developer ID e notarização) |
+| macOS | Publicado desde a 0.1.1: `.dmg` para Apple Silicon, assinado com Developer ID e notarizado pela Apple; não funciona em Macs com processador Intel |
 | Windows | Não publicado: ainda não há certificado de assinatura de código para Windows |
 | Android | Publicado: APK (arm64) |
 | iOS | Não publicado: ainda não há receita de compilação assinada |

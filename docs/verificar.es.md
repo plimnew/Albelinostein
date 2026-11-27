@@ -112,9 +112,16 @@ ellos.)
 - **Windows** (`-setup.exe`): todavía **no** tiene firma Authenticode.
   Windows mostrará el aviso "editor desconocido"; es lo esperado. Verifica
   con los tres pasos anteriores.
-- **macOS** (`.dmg`): todavía **no** está firmado con Developer ID ni
-  notarizado. macOS se negará a abrirlo con doble clic; es lo esperado.
-  Verifica con los tres pasos anteriores.
+- **macOS** (`.dmg`): la versión 0.1.0 no tiene `.dmg`. A partir de la 0.1.1,
+  el `.dmg` es solo para Macs con **Apple Silicon** (M1 o posterior; no
+  funciona en Macs con procesador Intel). Está firmado con el Developer ID
+  del equipo de Apple `B4S6KAG56M` y notarizado por Apple: se abre con doble
+  clic. Además de los tres pasos anteriores, en un Mac, en Terminal, en la
+  carpeta de la descarga, sustituyendo FILE por el nombre del archivo:
+  `xcrun stapler validate FILE` debe decir `The validate action worked!`, y
+  `spctl -a -vv -t open --context context:primary-signature FILE` debe
+  responder `accepted` y `source=Notarized Developer ID`, con `(B4S6KAG56M)`
+  en la línea `origin`.
 
 Windows, macOS y Android son plataformas aún sin validar; consulta el
 [estado de las versiones](../README.es.md).

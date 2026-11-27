@@ -73,12 +73,13 @@ Adelino never searches for or downloads books.
 
 ## Which systems are supported?
 
-Linux (x86_64: `.deb`, `.rpm`, AppImage and command-line program) and
-Android (APK, arm64) are published. Linux is validated by the acceptance
-suite. macOS, Windows, Android and iOS are not yet validated. macOS (still
-without an Apple developer account), Windows (still without a code-signing
-certificate) and iOS (still without a signed build recipe) are not
-published. On Windows and
+Linux (x86_64: `.deb`, `.rpm`, AppImage and command-line program), macOS for
+Apple Silicon (`.dmg`, version 0.1.1, signed with Developer ID and notarised
+by Apple; it does not run on Macs with an Intel processor) and Android (APK,
+arm64) are published. Linux is validated by the acceptance suite. macOS,
+Windows, Android and iOS are not yet validated. Windows (still without a
+code-signing certificate) and iOS (still without a signed build recipe) are
+not published. On Windows and
 macOS there is no command sandbox yet: every command asks.
 
 ## Can I approve actions from my phone?

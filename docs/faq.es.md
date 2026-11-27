@@ -75,10 +75,12 @@ nunca busca ni descarga libros.
 ## ¿Qué sistemas son compatibles?
 
 Están publicados Linux (x86_64: `.deb`, `.rpm`, AppImage y programa de línea
-de comandos) y Android (APK, arm64). Linux está validado por el guion de
-aceptación. macOS, Windows, Android e iOS están sin validar. macOS (aún sin
-cuenta de desarrollador de Apple), Windows (aún sin certificado de firma de
-código) e iOS (aún sin receta de compilación firmada) no están publicados.
+de comandos), macOS para Apple Silicon (`.dmg`, versión 0.1.1, firmado con
+Developer ID y notarizado por Apple; no funciona en Macs con procesador
+Intel) y Android (APK, arm64). Linux está validado por el guion de
+aceptación. macOS, Windows, Android e iOS están sin validar. Windows (aún sin
+certificado de firma de código) e iOS (aún sin receta de compilación firmada)
+no están publicados.
 En Windows y macOS aún no hay sandbox de comandos: cada comando pregunta.
 
 ## ¿Puedo aprobar acciones desde el móvil?

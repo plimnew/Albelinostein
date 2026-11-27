@@ -44,13 +44,13 @@ el [whitepaper](docs/whitepaper.es.md).
 
 ## Estado de las versiones
 
-La versión 0.1.0 se publicó el 26 de noviembre de 2026, **solo en la página de
-descargas del sitio web**.
+La versión 0.1.0 se publicó el 26 de noviembre de 2026 y la 0.1.1 para macOS
+(Apple Silicon) el 27 de noviembre, **solo en la página de descargas del sitio web**.
 
 | Sistema | Estado |
 |---|---|
 | Linux: `.deb`, `.rpm`, AppImage y programa de línea de comandos | Validado por las pruebas de aceptación; publicado |
-| macOS | No publicado: aún no hay cuenta de desarrollador de Apple (Developer ID y notarización) |
+| macOS | Publicado desde la 0.1.1: `.dmg` para Apple Silicon, firmado con Developer ID y notarizado por Apple; no funciona en Macs con procesador Intel |
 | Windows | No publicado: aún no hay certificado de firma de código para Windows |
 | Android | Publicado: APK (arm64) |
 | iOS | No publicado: aún no hay receta de compilación firmada |
