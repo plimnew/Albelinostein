@@ -1,5 +1,15 @@
 # Registo de alterações / Changelog
 
+## 0.1.1 — 2026-11-27
+
+**Versão 0.1.1 para macOS, publicada a 27 de novembro de 2026. / Version 0.1.1 for macOS, published on 27 November 2026.**
+
+- Aplicação Albelinostein para macOS com Apple Silicon, numa imagem de disco (`.dmg`) assinada com Developer ID e notarizada pela Apple / The Albelinostein app for macOS on Apple Silicon, as a disk image (`.dmg`) signed with Developer ID and notarised by Apple
+- Não funciona em Macs com processador Intel / It does not run on Macs with an Intel processor
+- No macOS ainda não há sandbox de comandos nem programa de linha de comandos / On macOS there is no command sandbox and no command-line program yet
+
+Linux e Android continuam na 0.1.0. / Linux and Android stay at 0.1.0.
+
 ## 0.1.0 — 2026-11-26
 
 **Versão 0.1.0, publicada a 26 de novembro de 2026. / Version 0.1.0, published on 26 November 2026.**
